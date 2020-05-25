@@ -1,13 +1,12 @@
 *,*:before, *:after{
     box-sizing:border-box;
+  
 }
 
 html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing:border-box;
 }
-
-
 
 body {
     background-color: darkcyan;
@@ -49,15 +48,33 @@ nav a:hover {
 
 }
 
+.flex-item{
+    background-color: hotpink;
+    flex: 1;
+    margin: 1em;
+
+}
+.section-item{
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+
+
 .Image1 img {
     flex: 1;
     overflow: hidden;
     display: flex;
     
-    
-    
-    
 }
+
+.section-item{
+    margin: 0 auto;
+    width: 100%;
+
+}
+
 .Image1 {
     display: flex;
 }
@@ -72,7 +89,7 @@ main {
 aside {
     flex: 1;
     margin: 1em;
-    overflow: scroll;
+    
 }
 
 
